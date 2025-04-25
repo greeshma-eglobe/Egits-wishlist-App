@@ -1,6 +1,4 @@
 import { json } from "@remix-run/node";
-import { unauthenticated } from "../shopify.server";
-import { cors } from "remix-utils/cors";
 import db from "../db.server";
 
 export async function loader({ request }) {
